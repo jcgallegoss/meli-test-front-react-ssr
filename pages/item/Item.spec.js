@@ -7,7 +7,7 @@ import { ID_COMPONENT_ITEM, OBJ_ITEM, ITEM_ID, VACIO } from '../../mocks/constan
 
 describe('Items.js', () => {
 
-  test('TEST 1: valida que obtenga los props del componente ', async () => {   
+  test('TEST 1: valida que obtenga los props del componente', async () => {   
     const req  = await createRequest({
       protocol: 'http',
       headers:{ host: 'localhost:3000'},

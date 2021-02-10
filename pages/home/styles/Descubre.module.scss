@@ -1,0 +1,36 @@
+.div-descubre{
+  margin-bottom: 16px;
+
+  h1{
+    font-size: 26px;
+    font-weight: 200;
+    margin-bottom: 16px;
+  }
+  a{
+    color: #333333 !important;
+  }
+
+  .div-descubre {
+    &:hover{
+      transition: box-shadow .1s ease-out;
+      box-shadow: 0 7px 16px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 10%);
+    }
+  }
+  .txt-card{
+    padding-left: 32px !important;
+  }
+  button{
+    background-color: #3483FA;
+    border-radius: 2px;
+    border-color: transparent;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0;
+    height: 36px;
+    width: 96px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  }
+}

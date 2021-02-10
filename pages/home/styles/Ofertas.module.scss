@@ -1,0 +1,34 @@
+.div-ofertas{
+  margin-bottom: 30px;
+  
+  .div-card {
+    &:hover{
+      transition: box-shadow .1s ease-out;
+      box-shadow: 0 7px 16px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 10%);
+    }
+  }
+  a{
+    color: #333333 !important;
+  }
+
+  p{
+    color: #999999 !important;
+  }
+
+  h1{
+    font-size: 26px;
+    font-weight: 200;
+    margin-bottom: 16px;
+  }
+  
+  .des-product {
+    border-top:1px solid #EEEEEE;
+    
+    &:hover{
+      background-color: #F9F9F9;
+    }
+
+    
+  }
+  
+}
