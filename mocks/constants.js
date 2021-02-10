@@ -6,6 +6,8 @@ export const ID_COMPONENT_HOME = 'div-home';
 export const MSJ_BIENVENIDA = 'Bienvenido busca todo lo que deseas';
 
 export const ID_COMPONENT_CONTAINER = 'div-container';
+export const ID_COMPONENT_DESCUBRE = 'div-descubre';
+export const ID_COMPONENT_OFERTAS = 'div-ofertas';
 export const ID_COMPONENT_SEARCH = 'div-search';
 export const ID_SEARCH_INPUT = 'inputSearch';
 export const ID_SEARCH_BTN = 'btnSearch';
