@@ -45,9 +45,9 @@ GET http://localhost:3000/api/items?q=query
 
 ### Examples Request
 ```bash
-http://localhost:3000/api/items?q=iphone
-http://localhost:3000/api/items?q=mac
-http://localhost:3000/api/items?q=laptop
+GET http://localhost:3000/api/items?q=iphone
+GET http://localhost:3000/api/items?q=mac
+GET http://localhost:3000/api/items?q=laptop
 ```
 
 ### Response
@@ -119,14 +119,14 @@ http://localhost:3000/api/items?q=laptop
 Retorna el detalle de un producto especifico de Mercado Libre.
 
 ```http
-POST https://operacion-fuego-quesar.azurewebsites.net/api/topsecret_split/:id 
+GET http://localhost:3000/api/items/:id 
 ```
 
 ### Examples Request
 ```bash
-http://localhost:3000/api/items/MLA903945107
-http://localhost:3000/api/items/MLA900663078
-http://localhost:3000/api/items/MLA896547636
+GET http://localhost:3000/api/items/MLA903945107
+GET http://localhost:3000/api/items/MLA900663078
+GET http://localhost:3000/api/items/MLA896547636
 ```
 
 ### Response
