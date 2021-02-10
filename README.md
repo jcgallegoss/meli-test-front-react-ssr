@@ -35,7 +35,7 @@ Las siguentes instrucciones se basan teniendo la aplicacion en Dev mode.
 npm run dev
 ```
 
-## api/items
+## /api/items?q=query
 
 Retorna los productos de Mercado Libre.
 
@@ -114,7 +114,7 @@ GET http://localhost:3000/api/items?q=laptop
 }
 ```
 
-## api/items/:id 
+## /api/items/:id 
 
 Retorna el detalle de un producto especifico de Mercado Libre.
 
