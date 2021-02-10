@@ -1,0 +1,36 @@
+{
+  "name": "meli-test-front-react-ssr",
+  "version": "1.0.0",
+  "description": "Test practico de Mercado Libre, busqueda de articulos y vista de detalle",
+  "author": "Jose Carlos Gallegos",
+  "scripts": {
+    "dev": "nodemon server",
+    "build": "next build",
+    "start": "node server",
+    "test": "jest --detectOpenHandles",
+    "test:coverage": "jest --coverage --detectOpenHandles",
+    "test-clear-cache": "jest --clearCache"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "latest",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.15.1",
+    "sass": "^1.32.6"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "babel-jest": "^26.6.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.3",
+    "mock-req-res": "^1.2.0",
+    "node-mocks-http": "^1.10.1",
+    "nodemon": "^2.0.7",
+    "react-test-renderer": "^17.0.1"
+  },
+  "license": "MIT"
+}
