@@ -10,7 +10,7 @@ Clonar proyecto y ejecutar los siguientes comando en el terminar
 
 ```bash
 npm i # Instala dependencias 
-npm run start # Corre aplicacion en puerto 3000 
+npm run start # Levanta aplicación en puerto 3000 
 ```
 
 ## Run Jest Tests
@@ -35,9 +35,9 @@ Las siguentes instrucciones se basan teniendo la aplicacion en Dev mode.
 npm run dev
 ```
 
-# api/items
+## api/items
 
-Este endpoint retorna los productos de Mercado Libre.
+Retorna los productos de Mercado Libre.
 
 ```http
 GET http://localhost:3000/api/items?q=query
@@ -114,9 +114,9 @@ http://localhost:3000/api/items?q=laptop
 }
 ```
 
-# api/items/:id 
+## api/items/:id 
 
-Este endpoint retorna el detalle de 1 un producto de Mercado Libre.
+Retorna el detalle de un producto especifico de Mercado Libre.
 
 ```http
 POST https://operacion-fuego-quesar.azurewebsites.net/api/topsecret_split/:id 
