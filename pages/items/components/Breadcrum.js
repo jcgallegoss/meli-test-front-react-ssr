@@ -1,10 +1,13 @@
 const Breadcrum = ({breadcrums}) => {
   
   const style = {
+    paddingLeft: '2px',
     paddingTop: '16px',
     paddingBottom: '16px',
     fontSize: '14px',
-    color: '#666666'
+    color: '#666666',
+    fontWeight: '400'
+
   }
 
   return(

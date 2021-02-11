@@ -27,7 +27,6 @@ const Ofertas = () => {
                     </Link>
                   </div>
                 </div>
-                
               </div>
             )
           })

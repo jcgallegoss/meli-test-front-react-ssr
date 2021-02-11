@@ -5,103 +5,70 @@
   margin-bottom: 32px;
   margin-top: 32px;
 
-  .div-detail-row {
-    max-width: 100%;
+  .space-16 {
+    margin-bottom: 16px;
+  }
+  .space-32 {
+    margin-bottom: 32px;
+  }
 
-    .div-detail-col-1 {
-      width: 680px;
-      height: 680px;
-      display: inline-block;
+  .img-detail{
+    width: 680px;
+    height: 680px;
+  }
 
-      .img-detail{
-        width: 680px;
-        // height: 680px;
-      }
-    }
+  .lbl-detail-vendidos{
+    font-size: 14px;
+    color: #666666;
+  }
 
-    .div-detail-col-2 {
-      width: 348px;
-      display: inline-block;
-      vertical-align: top;
+  .lbl-detail-item{
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+  }
 
-      .div-detail-vendidos{
-        padding-left: 32px;
+  .lbl-detail-price{
+    color: #333333;
+    font-size: 46px;
+    margin-right: 15px;
+  }
+  .lbl-price-simbol {
+    margin-right: 10px;
+  }
 
-        .lbl-detail-vendidos{
-          font-size: 14px;
-          color: #666666;
-        }
-      }
-      .div-detail-item{
-        padding-left: 32px;
-        padding-top: 16px;
+  .btn-detail-buy{
+    background-color: #3483FA;
+    border-radius: 4px;
+    border-color: transparent;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 24px;
+    height: 48px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  }
 
-        .lbl-detail-item{
-          font-weight: 700;
-          font-size: 24px;
-          color: #333333;
-        }
-      }
-      .div-detail-price{
-        padding-left: 32px;
-        padding-top: 32px;
-        
-        .lbl-detail-price{
-          color: #333333;
-          font-size: 46px;
-          margin-right: 15px;
-        }
-        .lbl-price-simbol {
-          margin-right: 10px;
-        }
-      }
+  .lbl-detail-des{
+    color: #333333;
+    font-size: 28px;
+  }
 
-      .div-detail-buttton{
-        padding-left: 32px;
-        padding-top: 32px;
+  .lbl-detail-des-txt{
+    color: #999999;
+    font-size: 16px;
+    margin: 0px;
+  }
+}
 
-        .btn-detail-buy{
-          background-color: #3483FA;
-          border-radius: 4px;
-          border-color: transparent;
-          outline: none;
-          color: #FFFFFF;
-          font-size: 16px;
-          font-weight: 600;
-          padding: 0 24px;
-          height: 48px;
-          width: 100%;
-          cursor: pointer;
-          box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
-        }
-      }
-    }
-
-    .div-detail-col-3 {
+@media (max-width: 991.98px) {
+  .div-container{
+    .img-detail{
       width: 100%;
-      display: inline-block;
-      vertical-align: top;
-
-      .div-detail-des{
-        padding-top: 30px;
-
-        .lbl-detail-des{
-          color: #333333;
-          font-size: 28px;
-        }
-      }
-
-      .div-detail-des-txt{
-        padding-top: 32px;
-        width: 680px;
-
-        .lbl-detail-des-txt{
-          color: #999999;
-          font-size: 16px;
-          margin: 0px;
-        }
-      }
+      height: 100%;
     }
-
   }
 }
