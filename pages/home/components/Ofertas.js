@@ -11,9 +11,9 @@ const Ofertas = () => {
         {
           ofetasejemplos.map(o => {
             return(
-              <div className="col" key={o.id}>
+              <div className="col mb-3" key={o.id}>
                 <div className={styles['div-card']}>
-                  <div className="card h-100 mb-3">
+                  <div className="card h-100">
                     <Link href={{pathname: '/items/[id]', query: { id: o.id }}} scroll={true}>
                       <a>
                         <img src={o.picture} className="card-img-top" alt={o.title} />

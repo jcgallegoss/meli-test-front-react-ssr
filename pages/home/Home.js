@@ -6,7 +6,7 @@ import Descubre from './components/Descubre'
 const Home = () => (
   <div data-testid="div-home">
     <Container>
-      <p className={styles['div-bienvenida']}>Bienvenido busca todo lo que deseas</p>
+      <p className={styles['lbl-bienvenida']}>Bienvenido busca todo lo que deseas</p>
       <Ofertas/>
       <Descubre/>
     </Container>
