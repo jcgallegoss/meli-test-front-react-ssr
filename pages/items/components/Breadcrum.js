@@ -1,18 +1,22 @@
+import styles from '../styles/Breadcrum.module.scss'
+import Link from 'next/link'
+
 const Breadcrum = ({breadcrums}) => {
   
-  const style = {
-    paddingLeft: '2px',
-    paddingTop: '16px',
-    paddingBottom: '16px',
-    fontSize: '14px',
-    color: '#666666',
-    fontWeight: '400'
-
-  }
-
   return(
-    <div style={style} data-testid="div-breadcrums">
-      {breadcrums.join(' > ')}
+    <div className={styles['div-crums']} data-testid="div-breadcrums">
+      {
+        breadcrums.map((b, i) => {
+          return(
+            <Link href={{pathname: '/items', query: { search: b }}} key={i}>
+              <a>
+                <span className={breadcrums[i+1] ? '' : 'font-weight-bold' }>{b}</span>
+                <span>{breadcrums[i+1] ? ' > ' : ''}</span>
+              </a>
+            </Link>
+          )
+        })
+      }
     </div>
   )
 
