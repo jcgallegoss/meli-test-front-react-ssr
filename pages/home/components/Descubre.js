@@ -18,7 +18,7 @@ const Descubre = () => {
                     <Link href={{pathname: '/items', query: { search: o.card.query }}} scroll={true}>
                       <a>
                         <div className="row">
-                          <div className="col-5 col-md-6">
+                          <div className="col-12 col-md-6">
                             <div className={`card-body ${styles['txt-card']}`}>
                               <p className="card-text">{o.card.lbl1}</p>
                               <h5 className="card-title">{o.card.lbl2}</h5>
@@ -27,7 +27,7 @@ const Descubre = () => {
                               </p>
                             </div>
                           </div>
-                          <div className="col-7 col-md-6">
+                          <div className="col-12 col-md-6">
                             <img src={o.picture} alt="..." width="250" height="210"/>
                           </div>
                         </div>
