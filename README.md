@@ -1,6 +1,6 @@
 # meli-test-front-react-ssr
 
-Aplicación tipo Server Side Redering (SSR) creada con ReactJS + NextJS + Express + Jest + SASS, CI/CD para Cloud Microsoft Azure
+Aplicación tipo Server Side Redering (SSR) creada con ReactJS + NextJS + Express + Jest + SASS, CI/CD en Cloud Microsoft Azure
 Esta simula un mini Mercado Libre en el cual puedes buscar productos desde el input de búsqueda principal,
 visualizar los productos encontrados y acceder a su vista de detallada.
 
@@ -160,3 +160,5 @@ GET https://meli-test-front-react-ssr.azurewebsites.net/api/items/MLA896547636
     }
 }
 ```
+
+# Gracias!

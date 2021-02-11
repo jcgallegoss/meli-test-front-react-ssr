@@ -18,9 +18,8 @@ const Search = (props) => {
 
   return(
     <header className={styles['nav-header']} data-testid="div-search">
-      
-      <nav className="navbar navbar-light">
-        <div className="container pr-0">      
+      <nav className={`navbar navbar-light ${styles['nav-xs']}`}>
+        <div className={`container pr-0 ${styles['icon-cont']}`}>
           <div className="row container-fluid p-0">
             <div className="col-2 col-md-1">
               <Link href="/">
@@ -32,15 +31,6 @@ const Search = (props) => {
             <div className="col-10 col-md-11 pr-0">
               <form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
                 <div className={`input-group ${styles['nav-search-group']}`}>
-                {/* <input type="text" 
-                    name="query" 
-                    className={styles['nav-search-input']} 
-                    placeholder="Nunca dejes de buscar"
-                    autoFocus
-                    ref={register({ required: true })}
-                    data-testid="inputSearch"
-                  /> */}
-
                   <input type="text"
                     name="query"
                     className={`form-control ${styles['nav-search-input']}`}
@@ -51,7 +41,6 @@ const Search = (props) => {
                     aria-describedby="basic-addon2"
                     data-testid="inputSearch"
                   />
-
                   <div className="input-group-append">
                     <button type="submit" 
                       className={`btn btn-outline-secondary ${styles['nav-btn-search']}`}
@@ -59,41 +48,12 @@ const Search = (props) => {
                         <img src="/images/ic_Search.png" alt="Buscar"/>
                     </button>
                   </div>
-                  
                 </div>
               </form>
             </div>
           </div>  
         </div>
       </nav>
-
-
-
-
-      
-      {/* <div className={styles['nav-search']}>
-        <div className={styles['nav-logo']}>
-          <Link href="/">
-            <a>
-              <img src="/images/Logo_ML.png" alt="Logo de mercado libre"/>
-            </a>
-          </Link>
-        </div>
-        <form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
-          <input 
-            type="text" 
-            name="query" 
-            className={styles['nav-search-input']} 
-            placeholder="Nunca dejes de buscar"
-            autoFocus
-            ref={register({ required: true })}
-            data-testid="inputSearch"
-          />
-          <button type="submit" className={styles['nav-icon-search']} data-testid="btnSearch">
-            <img src="/images/ic_Search.png" alt="Buscar"/>
-          </button>
-        </form>
-      </div> */}
     </header>
   )
 }
