@@ -13,7 +13,7 @@ const Ofertas = () => {
             return(
               <div className="col" key={o.id}>
                 <div className={styles['div-card']}>
-                  <div className="card h-100">
+                  <div className="card h-100 mb-3">
                     <Link href={{pathname: '/items/[id]', query: { id: o.id }}} scroll={true}>
                       <a>
                         <img src={o.picture} className="card-img-top" alt={o.title} />

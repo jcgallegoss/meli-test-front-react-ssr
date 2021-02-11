@@ -1,8 +1,12 @@
 # meli-test-front-react-ssr
 
-Aplicación tipo Server Side Redering (SSR) creada con ReactJS + NextJS + Express + Jest + SASS, 
+Aplicación tipo Server Side Redering (SSR) creada con ReactJS + NextJS + Express + Jest + SASS, CI/CD para Cloud Microsoft Azure
 Esta simula un mini Mercado Libre en el cual puedes buscar productos desde el input de búsqueda principal,
 visualizar los productos encontrados y acceder a su vista de detallada.
+
+## Ver en
+#### [https://meli-test-front-react-ssr.azurewebsites.net](https://meli-test-front-react-ssr.azurewebsites.net)
+
 
 ## Instrucciones de uso
 
@@ -28,8 +32,7 @@ npm run dev
 
 # Endpoints
 
-A continuación se muestran los endpoint creados para consultar los pructos y obtener un producto detallado,
-Las siguentes instrucciones se basan teniendo la aplicacion en Dev mode.
+A continuación se muestran los endpoint creados para consultar los pructos y obtener un producto detallado.
 
 ```bash
 npm run dev
@@ -40,6 +43,8 @@ npm run dev
 Retorna los productos de Mercado Libre.
 
 ```http
+GET https://meli-test-front-react-ssr.azurewebsites.net/api/items?q=query
+o
 GET http://localhost:3000/api/items?q=query
 ```
 
@@ -47,7 +52,8 @@ GET http://localhost:3000/api/items?q=query
 ```bash
 GET http://localhost:3000/api/items?q=iphone
 GET http://localhost:3000/api/items?q=mac
-GET http://localhost:3000/api/items?q=laptop
+o
+GET https://meli-test-front-react-ssr.azurewebsites.net/api/items?q=laptop
 ```
 
 ### Response
@@ -119,6 +125,8 @@ GET http://localhost:3000/api/items?q=laptop
 Retorna el detalle de un producto especifico de Mercado Libre.
 
 ```http
+GET https://meli-test-front-react-ssr.azurewebsites.net/api/items/:id
+o
 GET http://localhost:3000/api/items/:id 
 ```
 
@@ -126,7 +134,8 @@ GET http://localhost:3000/api/items/:id
 ```bash
 GET http://localhost:3000/api/items/MLA903945107
 GET http://localhost:3000/api/items/MLA900663078
-GET http://localhost:3000/api/items/MLA896547636
+o
+GET https://meli-test-front-react-ssr.azurewebsites.net/api/items/MLA896547636
 ```
 
 ### Response
